@@ -1,0 +1,6 @@
+services:
+  app:
+    image: ghcr.io/pulsate-dev/biolutus:v0
+    env_file:
+      - .env
+    restart: always
