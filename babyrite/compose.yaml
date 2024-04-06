@@ -1,6 +1,8 @@
+# https://github.com/m1sk9/babyrite
+
 services:
   app:
-    image: ghcr.io/m1sk9/babyrite:v0
+    image: ghcr.io/m1sk9/babyrite:v0.7.4
     env_file:
       - .env
     restart: always
