@@ -4,7 +4,7 @@ babyrite-up:
 	cd babyrite && docker compose up -d && cd ..
 
 biolutus-up:
-	cd biolutus && docker compose down && cd ..
+	cd biolutus && docker compose up -d && cd ..
 
 babyrite-log:
 	cd babyrite && docker compose log -f && cd ..
